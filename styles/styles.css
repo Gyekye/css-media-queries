@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+    section.show-on-medium-screen,
+    section.show-on-big-screen {
+        display: none;
+    }
+    body {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:1024px) {
+    section.show-on-small-screen,
+    section.show-on-big-screen {
+        display: none;
+    }
+    body {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    section.show-on-small-screen,
+    section.show-on-medium-screen {
+        display: none;
+    }
+    body {
+        font-size: 60px;
+    }
+}
