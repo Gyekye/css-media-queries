@@ -53,7 +53,7 @@ nav.links ul li:hover {
 
 /* Show Only On laptop Screens*/
 
-@media only screen and (min-width: 600px) and (max-width:1024px) {
+@media only screen and (min-width: 601px) and (max-width:1024px) {
     section.show-on-small-screen,
     section.show-on-big-screen {
         display: none;
@@ -66,7 +66,7 @@ nav.links ul li:hover {
 
 /* Show Only On big Screens*/
 
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width:1025px) {
     section.show-on-small-screen,
     section.show-on-medium-screen {
         display: none;
